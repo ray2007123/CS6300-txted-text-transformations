@@ -1,0 +1,78 @@
+# OPTION:
+  Presence of -f:
+       None.                
+       One.
+       Many.                 
+  Presence of -e:
+       None.                [single][error]
+       One.		    [property eone]
+       Many.                [property emany]
+  Presence of -i:           
+       None.		    [single][error]
+       One.
+       Many.
+       Without -e.          [property enone][error]                 
+  Presence of -s:
+       None.		    [error]
+       One.                 [property sone]
+  Presence of -x:
+       None.		    [property xzero][error]
+       One.                 [property xone][if (xone)]
+       Many.                [property xmany][if (xmany)][single]
+  Presence of -r:
+       None.                [error]
+       One.                 [property rone][if (rone)]
+       Many.                [property rmany][if (rmany)][single]
+  Presence of -n:
+       None.                [property nzero][single][error]
+       One.                 [property none]     
+
+
+# File
+  Size:
+       Empty.               [property emptyfile][single]
+       Not empty.
+
+  Number of occurrences of the string x in one line case:
+       One.                 [if !emptyfile && (xone || xmany)][single]
+       Many.                [if !emptyfile && (xone || xmany)][single]
+       Many and contain Non-matching case.   [single][if xzero][single]
+
+  Number of occurrences of the string e in one line case insensitive:
+       One.                 [if !emptyfile && (eone || emany)][single]
+       Many.                [if !emptyfile && (eone || emany)][single]
+       Many and contain Non-matching case.   [single][[if ezero]][single]
+
+
+#string x
+ String x Content:
+       No present.                      [if (xone || xmany)][error]
+       "".                              [if (xone || xmany)][single]
+       Alphanumeric characters.         [if (xone || xmany)]
+       Special characters.              [if (xone || xmany)][single]
+       Mixed.                           [if (xone || xmany)][single]
+       White spaces only.               [if (xone || xmany)][single]
+
+#string e
+ String e Content:
+       No present.                      [if (eone || emany)][error]
+       Alphanumeric characters.         [if (eone || emany)][single]
+       Special characters.              [if (eone || emany)][single]
+       Mixed.                           [if (eone || emany)]
+       White spaces only.               [if (eone || emany)][single]
+
+
+#integer n
+ Integer n Content:
+       0.                        [property zerovalue]
+       >0.
+       <0.                       [error]
+       maxint.                   [single]
+
+#integer s
+ Integer s Content:
+       0.			[single]
+       1.			[single]
+       >1			[error]
+       <0			[error]
+       

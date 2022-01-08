@@ -1,0 +1,524 @@
+
+Test Case 1  		<error>
+   Presence of -e :  None
+
+
+Test Case 2  		<error>
+   Presence of -i :  None
+
+
+Test Case 3  		<error>
+   Presence of -i :  Without -e
+
+
+Test Case 4  		<error>
+   Presence of -s :  None
+
+
+Test Case 5  		<error>
+   Presence of -x :  None
+
+
+Test Case 6  		<single>  (follows [if])
+   Presence of -x :  Many
+
+
+Test Case 7  		<error>
+   Presence of -r :  None
+
+
+Test Case 8  		<single>  (follows [if])
+   Presence of -r :  Many
+
+
+Test Case 9  		<error>
+   Presence of -n :  None
+
+
+Test Case 10 		<single>
+   Size :  Empty
+
+
+Test Case 11 		<single>  (follows [if])
+   Number of occurrences of the string x in one line case :  One
+
+
+Test Case 12 		<single>  (follows [if])
+   Number of occurrences of the string x in one line case :  Many
+
+
+Test Case 13 		<single>
+   Number of occurrences of the string x in one line case :  Many and contain Non-matching case
+
+
+Test Case 14 		<single>  (follows [if])
+   Number of occurrences of the string e in one line case insensitive :  One
+
+
+Test Case 15 		<single>  (follows [if])
+   Number of occurrences of the string e in one line case insensitive :  Many
+
+
+Test Case 16 		<single>
+   Number of occurrences of the string e in one line case insensitive :  Many and contain Non-matching case
+
+
+Test Case 17 		<error>  (follows [if])
+   String x Content :  No present
+
+
+Test Case 18 		<single>  (follows [if])
+   String x Content :  ""
+
+
+Test Case 19 		<single>  (follows [if])
+   String x Content :  Special characters
+
+
+Test Case 20 		<single>  (follows [if])
+   String x Content :  Mixed
+
+
+Test Case 21 		<single>  (follows [if])
+   String x Content :  White spaces only
+
+
+Test Case 22 		<error>  (follows [if])
+   String e Content :  No present
+
+
+Test Case 23 		<single>  (follows [if])
+   String e Content :  Alphanumeric characters
+
+
+Test Case 24 		<single>  (follows [if])
+   String e Content :  Special characters
+
+
+Test Case 25 		<single>  (follows [if])
+   String e Content :  White spaces only
+
+
+Test Case 26 		<error>
+   Integer n Content :  <0
+
+
+Test Case 27 		<single>
+   Integer n Content :  maxint
+
+
+Test Case 28 		<single>
+   Integer s Content :  0
+
+
+Test Case 29 		<single>
+   Integer s Content :  1
+
+
+Test Case 30 		(Key = 1.2.2.2.0.0.2.2.0.0.0.4.1.0.)
+   Presence of -f                                                     :  None
+   Presence of -e                                                     :  One
+   Presence of -i                                                     :  One
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 31 		(Key = 1.2.2.2.0.0.2.2.0.0.0.4.2.0.)
+   Presence of -f                                                     :  None
+   Presence of -e                                                     :  One
+   Presence of -i                                                     :  One
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  >0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 32 		(Key = 1.2.3.2.0.0.2.2.0.0.0.4.1.0.)
+   Presence of -f                                                     :  None
+   Presence of -e                                                     :  One
+   Presence of -i                                                     :  Many
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 33 		(Key = 1.2.3.2.0.0.2.2.0.0.0.4.2.0.)
+   Presence of -f                                                     :  None
+   Presence of -e                                                     :  One
+   Presence of -i                                                     :  Many
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  >0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 34 		(Key = 1.3.2.2.0.0.2.2.0.0.0.4.1.0.)
+   Presence of -f                                                     :  None
+   Presence of -e                                                     :  Many
+   Presence of -i                                                     :  One
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 35 		(Key = 1.3.2.2.0.0.2.2.0.0.0.4.2.0.)
+   Presence of -f                                                     :  None
+   Presence of -e                                                     :  Many
+   Presence of -i                                                     :  One
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  >0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 36 		(Key = 1.3.3.2.0.0.2.2.0.0.0.4.1.0.)
+   Presence of -f                                                     :  None
+   Presence of -e                                                     :  Many
+   Presence of -i                                                     :  Many
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 37 		(Key = 1.3.3.2.0.0.2.2.0.0.0.4.2.0.)
+   Presence of -f                                                     :  None
+   Presence of -e                                                     :  Many
+   Presence of -i                                                     :  Many
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  >0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 38 		(Key = 2.2.2.2.0.0.2.2.0.0.0.4.1.0.)
+   Presence of -f                                                     :  One
+   Presence of -e                                                     :  One
+   Presence of -i                                                     :  One
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 39 		(Key = 2.2.2.2.0.0.2.2.0.0.0.4.2.0.)
+   Presence of -f                                                     :  One
+   Presence of -e                                                     :  One
+   Presence of -i                                                     :  One
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  >0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 40 		(Key = 2.2.3.2.0.0.2.2.0.0.0.4.1.0.)
+   Presence of -f                                                     :  One
+   Presence of -e                                                     :  One
+   Presence of -i                                                     :  Many
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 41 		(Key = 2.2.3.2.0.0.2.2.0.0.0.4.2.0.)
+   Presence of -f                                                     :  One
+   Presence of -e                                                     :  One
+   Presence of -i                                                     :  Many
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  >0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 42 		(Key = 2.3.2.2.0.0.2.2.0.0.0.4.1.0.)
+   Presence of -f                                                     :  One
+   Presence of -e                                                     :  Many
+   Presence of -i                                                     :  One
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 43 		(Key = 2.3.2.2.0.0.2.2.0.0.0.4.2.0.)
+   Presence of -f                                                     :  One
+   Presence of -e                                                     :  Many
+   Presence of -i                                                     :  One
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  >0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 44 		(Key = 2.3.3.2.0.0.2.2.0.0.0.4.1.0.)
+   Presence of -f                                                     :  One
+   Presence of -e                                                     :  Many
+   Presence of -i                                                     :  Many
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 45 		(Key = 2.3.3.2.0.0.2.2.0.0.0.4.2.0.)
+   Presence of -f                                                     :  One
+   Presence of -e                                                     :  Many
+   Presence of -i                                                     :  Many
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  >0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 46 		(Key = 3.2.2.2.0.0.2.2.0.0.0.4.1.0.)
+   Presence of -f                                                     :  Many
+   Presence of -e                                                     :  One
+   Presence of -i                                                     :  One
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 47 		(Key = 3.2.2.2.0.0.2.2.0.0.0.4.2.0.)
+   Presence of -f                                                     :  Many
+   Presence of -e                                                     :  One
+   Presence of -i                                                     :  One
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  >0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 48 		(Key = 3.2.3.2.0.0.2.2.0.0.0.4.1.0.)
+   Presence of -f                                                     :  Many
+   Presence of -e                                                     :  One
+   Presence of -i                                                     :  Many
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 49 		(Key = 3.2.3.2.0.0.2.2.0.0.0.4.2.0.)
+   Presence of -f                                                     :  Many
+   Presence of -e                                                     :  One
+   Presence of -i                                                     :  Many
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  >0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 50 		(Key = 3.3.2.2.0.0.2.2.0.0.0.4.1.0.)
+   Presence of -f                                                     :  Many
+   Presence of -e                                                     :  Many
+   Presence of -i                                                     :  One
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 51 		(Key = 3.3.2.2.0.0.2.2.0.0.0.4.2.0.)
+   Presence of -f                                                     :  Many
+   Presence of -e                                                     :  Many
+   Presence of -i                                                     :  One
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  >0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 52 		(Key = 3.3.3.2.0.0.2.2.0.0.0.4.1.0.)
+   Presence of -f                                                     :  Many
+   Presence of -e                                                     :  Many
+   Presence of -i                                                     :  Many
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  0
+   Integer s Content                                                  :  <n/a>
+
+
+Test Case 53 		(Key = 3.3.3.2.0.0.2.2.0.0.0.4.2.0.)
+   Presence of -f                                                     :  Many
+   Presence of -e                                                     :  Many
+   Presence of -i                                                     :  Many
+   Presence of -s                                                     :  One
+   Presence of -x                                                     :  <n/a>
+   Presence of -r                                                     :  <n/a>
+   Presence of -n                                                     :  One
+   Size                                                               :  Not empty
+   Number of occurrences of the string x in one line case             :  <n/a>
+   Number of occurrences of the string e in one line case insensitive :  <n/a>
+   String x Content                                                   :  <n/a>
+   String e Content                                                   :  Mixed
+   Integer n Content                                                  :  >0
+   Integer s Content                                                  :  <n/a>
+
